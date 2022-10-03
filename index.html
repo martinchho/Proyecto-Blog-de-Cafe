@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1> <!--span: no cambia la apariencia del elemento, pero es especialmente diseñado cuando queremos una variante de diseño en el texto-->
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            
+            <article class= "entrada"> <!--bloque con una entrada de blog-->
+                <div class="entrada__imagen">
+                    <img src="img/blog1.jpg" alt="imagen blog"> <!--siempre se requiere una imagen alterna-->
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Grano de Café</h4>
+                    <p>Cras vel mauris nulla. Praesent ac rhoncus tellus. Ut blandit sollicitudin lectus, at convallis urna tincidunt sit amet. Nulla ac urna eu odio porta mattis. Duis tincidunt justo neque. Duis lacinia sodales tellus in hendrerit. Morbi lectus dolor, finibus eget nisi ut, ornare congue felis. Donec efficitur pretium dignissim. Proin et convallis orci, at laoreet risus. Donec sit amet blandit lacus.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article> <!--cuando tienes un blog, entradas de un foro, o una seccion de noticias, se coloca en un article-->
+
+            <article class= "entrada"> <!--bloque con una entrada de blog-->
+                <div class="entrada__imagen">
+                    <img src="img/blog2.jpg" alt="imagen blog"> <!--siempre se requiere una imagen alterna-->
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Deliciosas recetas para Café</h4>
+                    <p>Cras vel mauris nulla. Praesent ac rhoncus tellus. Donec efficitur pretium dignissim. Ut blandit sollicitudin lectus, at convallis urna tincidunt sit amet. Nulla ac urna eu odio porta mattis. Duis tincidunt justo neque. Duis lacinia sodales tellus in hendrerit. Morbi lectus dolor, finibus eget nisi ut, ornare congue felis. Proin et convallis orci, at laoreet risus. Donec sit amet blandit lacus.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article> <!--cuando tienes un blog, entradas de un foro, o una seccion de noticias, se coloca en un article-->
+
+            <article class= "entrada"> <!--bloque con una entrada de blog-->
+                <div class="entrada__imagen">
+                    <img src="img/blog3.jpg" alt="imagen blog"> <!--siempre se requiere una imagen alterna-->
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>Cras vel mauris nulla. Ut blandit sollicitudin lectus, at convallis urna tincidunt sit amet. Nulla ac urna eu odio porta mattis. Duis tincidunt justo neque. Duis lacinia sodales tellus in hendrerit. Morbi lectus dolor, finibus eget nisi ut, ornare congue felis. Praesent ac rhoncus tellus. Donec efficitur pretium dignissim. Proin et convallis orci, at laoreet risus. Donec sit amet blandit lacus.</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article> <!--cuando tienes un blog, entradas de un foro, o una seccion de noticias, se coloca en un article-->
+        </main>
+        <aside class="sidebar">
+            <h3>Nuestros Cursos y Talleres</h3>
+
+            <ul class="cursos no-padding"> <!--lista no ordenada-->
+                <li class="widget-curso">
+                    <h4 class="no-margin">Técnicas de Extracción de Café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span><!--Span no da estilos por si mismo pero permite una modificacion mas personalizada-->
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span><!--Span no da estilos por si mismo pero permite una modificacion mas personalizada-->
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Más información</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span><!--Span no da estilos por si mismo pero permite una modificacion mas personalizada-->
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span><!--Span no da estilos por si mismo pero permite una modificacion mas personalizada-->
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Más información</a>
+                </li>
+            </ul>
+        </aside> <!--si tenemos una barra mas pequeña a un lado, esa debe de ir en el aside-->      
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1> <!--span: no cambia la apariencia del elemento, pero es especialmente diseñado cuando queremos una variante de diseño en el texto-->
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
